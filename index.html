@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">Goth
+            <span>nima</span></a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+              <a href="#home" class="active">Home</a>
+              <a href="#services" class="active">Services</a>
+              <a href="#projects" class="active">Projects</a>
+              <a href="#contact" class="active">Contact</a>  
+            </nav>
+    </header>
+
+<!--Home Section-->
+    <section class="home" id="home">
+        <div class="home-content">
+           <h1>Hi, I'm <span>Gothnima</span></h1> 
+           <h3 class="text-animation">I'm a <span></span></h3>
+           <p>As a versatile web developer and designer, I specialize in creating dynamic and visually appealing websites. My expertise spans frontend development, where I build responsive and engaging interfaces; UI design, focusing on intuitive and beautiful user experiences; logo design, crafting unique and memorable brand identities; and backend development, ensuring robust and scalable server-side solutions. I am dedicated to bringing your vision to life with a comprehensive approach to web development and design.</p>
+           <div class="social-icons">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+           </div>
+
+           <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+           </div>
+        </div>
+           <div class="home-img">
+            <img src="image.jpeg" alt="">
+           </div>   
+    </section>
+
+<!--Services Section-->
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI Design</h4>
+                    <p>By combining creativity with a deep understanding of user behavior, I design interfaces that are both beautiful and easy to navigate. My design process focuses on usability, ensuring that your users can interact with your digital products effortlessly.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Development</h4>
+                    <p>I specialize in creating responsive, user-friendly web interfaces that provide an engaging and seamless experience for users. With expertise in HTML, CSS, and JavaScript, I ensure that every website I develop is not only visually appealing but also highly functional across all devices.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Backend Development</h4>
+                    <p>I provide robust and scalable backend solutions that power your applications. From database management to API integration, my backend development services are designed to support the functionality and performance of your web projects.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Logo Design</h4>
+                    <p>I create memorable and impactful logos that effectively communicate your brand identity. With a keen eye for detail and a passion for design, I develop logos that are unique, versatile, and aligned with your brand’s vision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Project Section--> 
+    <section class="projects" id="projects">
+        <div class="projects-box">
+            <h2 class="heading">Projects</h2>
+
+            <div class="wrapper">
+                <div class="project-item">
+                   <img src="1.png" alt=""> 
+                   <h2>Burger Hut</h2>
+                   <div class="rating">
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                   </div>
+                   <p>" This is a website that I created with HTML and CSS as an online platform for order and purchase foods online. You can log in to the system and visit foods and order or purchase them. "</p>
+                </div>
+
+                <div class="project-item">
+                    <img src="2.png" alt=""> 
+                    <h2>Let's Gov</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>" This is an online platform for getting services from Sri Lankan government. Citizens can log into the system and then they will able to get request their smart ID card, smart driving license also there is an Admin pannel to control the system. This has developed using Flutter and Firebase. "</p>
+                 </div>
+
+                 <div class="project-item">
+                    <img src="3.jpg" alt=""> 
+                    <h2>Ice Cream Bar</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>" This is an online platform that provides users to purchase and order ice cream. This has developed using HTML, CSS, JavaScript for the frontend, as the backend technology I used PHP also, for the database I used mysql databases. "</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+<!--Contact Section-->
+    <section class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#contact">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#services">Services</a>
+            </li>
+
+            <li>
+                <a href="#home">About Me</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+        <p class="copyright">
+          @ Gothnima | All Rights Reserved  
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
