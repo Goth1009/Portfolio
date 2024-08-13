@@ -187,6 +187,7 @@ span{
 .text-animation span{
     position: relative;
 }
+/*
 .text-animation span::before{
     content: "Web Developer";
     color: var(--main-color);
@@ -253,7 +254,7 @@ span{
     85%{
         width: calc(100% + 8px);
     }
-}
+}*/
 .heading{
     font-size: 8rem;
     text-align: center;
@@ -311,6 +312,7 @@ span{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
+    
 }
 .service-info p{
     font-size: 1.6rem;
@@ -563,4 +565,21 @@ span{
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+@media (max-width: 768px){
+    html {
+        font-size: 40%;
+    }
+    .service-box{
+        max-height: 60%;
+    }
+    .wrapper{
+        max-width: 40%;
+        max-height: 60%;
+    }
+    .footer ul.list{
+       font-size: 15px;
+    }
+    
 }
