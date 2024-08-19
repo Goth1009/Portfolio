@@ -591,11 +591,12 @@ span{
     .service-box{
         max-height: 61%;
     }
-    .wrapper{
-        align-self: center;
-        max-width: 40%;
-        max-height: 60%;
+    .projects .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+    
     .footer ul.list{
        font-size: 10px;
     }
