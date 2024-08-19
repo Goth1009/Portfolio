@@ -614,19 +614,3 @@ span{
     }
   }
 
-  @media (max-width: 320px){
-    html{
-        font-size: 40%;
-    }
-    .service-box{
-        max-height: 60%;
-    }
-    .wrapper{
-        align-self: center;
-        max-width: 40%;
-        max-height: 60%;
-    }
-    .footer ul.list{
-       font-size: 10px;
-    }
-}
