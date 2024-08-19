@@ -614,26 +614,20 @@ span{
       font-size: 14px; 
     }
   }
-  @media (max-width: 414px){
-    .services-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .service-box {
-        margin: 20px; 
-        width: 100%; 
-      }
-      .service-info {
-        text-align: center;
-      }
-      .service-info h4 {
-        font-size: 18px; 
-        margin-bottom: 10px;
-      }
-      .service-info p {
-        font-size: 14px; 
-        margin-bottom: 20px;
-      }
-  }
 
+  @media (max-width: 320px){
+    html{
+        font-size: 40%;
+    }
+    .service-box{
+        max-height: 60%;
+    }
+    .wrapper{
+        align-self: center;
+        max-width: 40%;
+        max-height: 60%;
+    }
+    .footer ul.list{
+       font-size: 10px;
+    }
+}
