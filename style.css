@@ -590,29 +590,31 @@ span{
       justify-content: center;
     }
     .project-item {
-      margin: 20px;
+      margin: 20px; 
       width: 100%; 
     }
     .project-item img {
       width: 100%; 
       height: auto; 
+      margin-bottom: 10px; 
     }
     .project-item h2 {
       font-size: 18px; 
+      margin-bottom: 10px;
+    }
+    .project-item .rating {
+      font-size: 14px;
       margin-bottom: 10px;
     }
     .project-item p {
       font-size: 14px; 
       margin-bottom: 20px;
     }
-    .rating {
-      font-size: 14px; 
-      margin-bottom: 10px;
-    }
     .bx {
       font-size: 14px; 
     }
   }
+
 
   @media (max-width: 320px){
     html{
