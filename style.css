@@ -584,6 +584,23 @@ span{
     
 }
 
+@media (max-width: 414px){
+    html{
+        font-size: 42%;
+    }
+    .service-box{
+        max-height: 61%;
+    }
+    .wrapper{
+        align-self: center;
+        max-width: 40%;
+        max-height: 60%;
+    }
+    .footer ul.list{
+       font-size: 10px;
+    }
+}
+
 @media (max-width: 320px){
     html{
         font-size: 40%;
