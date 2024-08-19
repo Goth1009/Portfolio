@@ -583,40 +583,7 @@ span{
     }
     
 }
-@media (max-width: 414px) {
-    .projects .wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .project-item {
-        width: 100%; 
-        margin-bottom: 20px; 
-        padding: 15px; 
-    }
-
-    .project-item h2 {
-        font-size: 18px; 
-    }
-
-    .project-item p {
-        font-size: 13px; 
-    }
-
-    .projects-box {
-        padding: 10px; 
-    }
-
-    .rating i {
-        font-size: 16px; 
-    }
-
-    .project-item img {
-        width: 100%; 
-        height: auto;
-        border-radius: 5px; 
-    }
-}
 
   @media (max-width: 320px){
     html{
