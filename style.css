@@ -588,6 +588,7 @@ span{
       /*display: flex;*/
       /*flex-wrap: wrap;*/
       justify-content: center;
+      align-items: center;
     }
     .project-item {
       margin: 20px;
