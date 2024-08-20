@@ -588,9 +588,9 @@ span{
       /*display: flex;*/
       /*flex-wrap: wrap;*/
       justify-content: center;
-      align-items: center;
     }
     .project-item {
+      align-self: center;  
       margin: 20px;
       width: 100%; /* make each project item full-width on phone screen */
     }
