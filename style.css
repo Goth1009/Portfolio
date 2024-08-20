@@ -585,8 +585,8 @@ span{
 }
 @media (max-width: 414px) {
     .projects .wrapper {
-      display: flex;
-      flex-wrap: wrap;
+      /*display: flex;*/
+      /*flex-wrap: wrap;*/
       justify-content: center;
     }
     .project-item {
