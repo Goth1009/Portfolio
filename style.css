@@ -590,7 +590,7 @@ span{
       justify-content: center;
     }
     .project-item {
-      align-self: center;  
+      justify-content: center;  
       margin: 20px;
       width: 100%; /* make each project item full-width on phone screen */
     }
