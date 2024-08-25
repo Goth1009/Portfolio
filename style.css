@@ -613,5 +613,8 @@ span{
     .bx {
       font-size: 14px; /* reduce font size on phone screen */
     }
+    .services-container .service-box{
+        margin-bottom: 10px;
+    }
   }
 
