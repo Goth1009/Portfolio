@@ -3,214 +3,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Portfolio website</title>
     <link rel="stylesheet" href="style.css">
+    <!-- boxicon css link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 <body>
-    
-    <header class="header">
-        <a href="#home" class="logo">Goth
-            <span>nima</span></a>
-
-            <i class='bx bx-menu' id="menu-icon"></i>
-
-            <nav class="navbar">
-              <a href="#home" class="active">Home</a>
-              <a href="#services" class="active">Services</a>
-              <a href="#projects" class="active">Projects</a>
-              <a href="#contact" class="active">Contact</a>  
-            </nav>
+    <div class="overlay"></div>
+    <header>
+        <a href="#" class="logo"><span>Goth</span>nima</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="mailto:gothnimasathsarani@gmail.com" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
     </header>
 
-<!--Home Section-->
     <section class="home" id="home">
-        <div class="home-content">
-           <h1>Hi, I'm <span>Gothnima</span></h1> 
-           <h3 class="text-animation">I'm a <span>UI/UX Designer</span></h3>
-           <p>I build responsive and engaging interfaces; UI design, focusing on intuitive and beautiful user experiences; logo design, crafting unique and memorable brand identities; and backend development, ensuring robust and scalable server-side solutions. I am dedicated to bringing your vision to life with a comprehensive approach to web development and design.</p>
-           <div class="social-icons">
-            <a href="https://www.linkedin.com/in/gothnima-sathsarani-211b70218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/Goth1009"><i class='bx bxl-github'></i></a>
-            <a href="https://www.instagram.com/goth_nima?igsh=YmtnOXM5anI2M2dn"><i class='bx bxl-instagram-alt' ></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100074857495411&mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
-           </div>
+        <div class="hero-info">
+            <h3>Hello, Welcome All</h3>
+            <h1>I'm Gothnima</h1>
 
-           <div class="btn-group">
-            <a href="Gothnima_resume.pdf" class="btn">View CV</a>
-            <a href="#contact" class="btn">Contact</a>
-           </div>
+            <div class="text-animate">
+                <h2>UI/UX Designer</h2>
+            </div>
+
+            <p>I build responsive and engaging interfaces; UI design, focusing on intuitive and beautiful user experiences; logo design, crafting unique and memorable brand identities, ensuring robust and scalable server-side solutions.  combine user research, wireframes, and prototypes to design solutions that are both functional and aesthetically pleasing, enhancing usability and interaction across digital platforms. I am dedicated to bringing your vision to life with a comprehensive approach to web development and design.</p>
+
+            <div class="btn-box">
+                <a href="mailto:gothnimasathsarani@gmail.com" class="btn">Hire Me Now ! <i class='bx bx-right-arrow-alt' ></i></a>
+                <a href="img/Gothnima_resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="https://www.behance.net/gothnimsathsar/projects"><i class='bx bxl-behance'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://github.com/Goth1009"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://www.linkedin.com/in/gothnima-sathsarani-211b70218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
+                    <span></span>
+                </div>
+
+
+                <div class="bg-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100074857495411&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <span></span>
+                </div>
+            </div>
         </div>
-           <div class="home-img">
-            <img src="image.jpeg" alt="">
-           </div>   
+        <div class="img-hero">
+                <img src="img/Ellipse 1.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>I'm a UI/UX Designer</p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
     </section>
 
-<!--Services Section-->
     <section class="services" id="services">
-        <h2 class="heading">My Services</h2>
+        <div class="main-text">
+            <h2 class="heading">My Services</h2>
+            <span>what i will do for you</span>
+        </div>
 
-        <div class="services-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>UI Design & Logo Design</h4>
-                    <p>Designing intuitive and visually appealing user interfaces that enhance user engagement. I focus on usability and aesthetics to ensure your product stands out. Also, creating memorable and impactful logos that capture your brand's essence. </p>
+        <div class="allServices">
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-desktop' ></i>
+                    <span></span>
                 </div>
+                <h3>UI / UX Design</h3>
+                <p>Designing intuitive and visually appealing user interfaces that enhance user engagement. I focus on usability and aesthetics to ensure your product stands out.</p>
             </div>
 
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Web Development</h4>
-                    <p>Crafting responsive, high-performance websites that deliver seamless user experiences across all devices. From concept to deployment, I bring your digital vision to life.</p>
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-code-alt' ></i>
+                    <span></span>
                 </div>
+                <h3>Web Development</h3>
+                <p>Creating responsive and user-friendly websites from clean code to seamless functionality, I ensure a smooth web experience with optimized performance & modern designs.</p>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bxs-party' ></i>
+                    <span></span>
+                </div>
+                <h3>Logo Design</h3>
+                <p>I'm creating memorable and impactful logos that capture your brand's essence. They will make your brand luxury and make your business more attractive.</p>
             </div>
         </div>
+
+        <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/circle.png" class="circle2">
+            <img src="shapes/circle.png" class="circle3">
+            <img src="shapes/half-ring.png" class="half-ring">
+        </div>
     </section>
-<!--Project Section--> 
-    <section class="projects" id="projects">
-        <div class="projects-box">
-            <h2 class="heading">Projects</h2>
 
-            <div class="wrapper">
-                <div class="project-item">
-                   <img src="images/BurgerHut.png" alt=""> 
-                   <h2>Burger Hut</h2>
-                   <div class="rating">
-                    <i class='bx bxs-star' id="star"></i>
-                    <i class='bx bxs-star' id="star"></i>
-                    <i class='bx bxs-star' id="star"></i>
-                    <i class='bx bxs-star' id="star"></i>
-                    <i class='bx bxs-star' id="star"></i>
-                   </div>
-                   <p>" This is a website that I created with HTML and CSS as an online platform for order and purchase foods online. You can log in to the system and visit foods and order or purchase them. "</p>
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">My Projects</h2>
+            <span>what i have done for you</span>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>BurgerHut</h3>
+                    <p>"A website that created with HTML and CSS as an online food ordering system"</p>
+                    <p>HTML | CSS</p>
                 </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/BurgerHut.png" alt="">
+                </div>
+            </div>
 
-                <div class="project-item">
-                    <img src="images/SGP.png" alt=""> 
-                    <h2>Let's Gov</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>" This is an online platform for getting services from Sri Lankan government. Citizens can log into the system and then they will able to get request their smart ID card, smart driving license also there is an Admin pannel to control the system. This has developed using Flutter and Firebase. "</p>
-                 </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Ice Cream Bar</h3>
+                    <p>" This is an online platform that provides users to purchase and order ice cream."</p>
+                    <p>HTML | CSS | JavaScript | PHP | MySql</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/CreamBar.png" alt="">
+                </div>
+            </div>
 
-                 <div class="project-item">
-                    <img src="images/CreamBar.png" alt=""> 
-                    <h2>Ice Cream Bar</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>" This is an online platform that provides users to purchase and order ice cream. This has developed using HTML, CSS, JavaScript for the frontend, as the backend technology, we used PHP also, for the database we used mysql databases. "</p>
-                 </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Mr.Barber</h3>
+                    <p>" This is an user interface design for online platform of barbershop."</p>
+                    <p>Figma</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/Barbershop.png" alt="">
+                </div>
+            </div>
 
-                 <div class="project-item">
-                    <img src="images/BudgetBeat.png" alt=""> 
-                    <h2>BudgetBeat</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>" This is an online platform which manages financials of university students. It also provides financial education for university students. Designed with Figma. "</p>
-                 </div>
 
-                 <div class="project-item">
-                    <img src="images/Barbershop.png" alt=""> 
-                    <h2>Mr.Barber</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>" This is an user interface design for online platform of barbershop website which facilitates users to make appointments and get services."</p>
-                 </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>BudgetBeat</h3>
+                    <p>" This is an UI design for online platform which manages financials of university students."</p>
+                    <p>Figma</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/BudgetBeat.png" alt="">
+                </div>
+            </div>
 
-                 <div class="project-item">
-                    <img src="images/Foodies.png" alt=""> 
-                    <h2>Foodies</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>Foodies</h3>
                     <p>" This is an user interface design for online food ordering system. It has designed with Figma. "</p>
-                 </div>
+                    <p>Figma</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/Foodies.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>Let's Gov</h3>
+                    <p>"This is an online platform for getting services from Sri Lankan government."</p>
+                    <p>Figma | Flutter | Firebase</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/SGP.png" alt="">
+                </div>
             </div>
         </div>
+
     </section>
 
-<!--Contact Section-->
-    <section class="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                    <span>get in touch with me</span>
+                </div>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
                     <input type="email" placeholder="Email">
-                </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
                     <input type="text" placeholder="Subject">
+                    <textarea name="#" id="" cols="30" rows="10">
+                    </textarea>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="skills">
+                <div class="container">
+                    <div class="skillBox">
+                        <div class="main-text">
+                            <h2 class="heading">My Skills</h2>
+                            <span>Let Me Help you</span>
+                        </div>
+                        <div class="skill-wrap">
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="90">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    UI/UX Design
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="85">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    HTML
+                                </div>
+                            </div>
+
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="78">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    CSS
+                                </div>
+                            </div>
+
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="65">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-            <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-        </form>
+        </div>
     </section>
 
-    <footer class="footer">
-        <div class="social">
-            <a href="https://www.linkedin.com/in/gothnima-sathsarani-211b70218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/Goth1009"><i class='bx bxl-github'></i></a>
-            <a href="https://www.instagram.com/goth_nima?igsh=YmtnOXM5anI2M2dn"><i class='bx bxl-instagram-alt' ></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100074857495411&mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
-        </div>
-
-        <ul class="list">
-            <li>
-                <a href="#contact">FAQ</a>
-            </li>
-
-            <li>
-                <a href="#services">Services</a>
-            </li>
-
-            <li>
-                <a href="#home">About Me</a>
-            </li>
-
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-        </ul>
-        <p class="copyright">
-          @ Gothnima | All Rights Reserved  
-        </p>
+    <footer>
+        <p>Copyright © 2024 by <span>GothnimaSathsarani</span> || All Right Reservd.</p>
     </footer>
 
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
