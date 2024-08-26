@@ -583,7 +583,7 @@ span{
     }
     
 }
-@media (max-width: 414px) {
+@media (max-width: 530px) {
     .projects .wrapper {
       /*display: flex;*/
       /*flex-wrap: wrap;*/
@@ -614,7 +614,8 @@ span{
       font-size: 14px; /* reduce font size on phone screen */
     }
     .services-container .service-box{
-        margin-bottom: 10px;
+        display: grid;
+        grid-gap: 1rem;
     }
   }
 
